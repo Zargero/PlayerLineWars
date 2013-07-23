@@ -1,0 +1,20 @@
+"Gamemode"
+ {
+ 	"name"		"PlayerLineWars"
+ 	"version"	"0.1" 
+ 	"up_date"	"1/08/2009" // The date this version was published. Set before release!
+ 
+ 	"author_name"	"Zargero"
+ 	"author_email"	"Zargero10@hotmail.com"
+ 	"author_url"	"http://steamcommunity.com/id/Zargeroz"
+ 
+ 	"info"		"This is my modification's description. It's not very good."
+ 	"icon" 	 	"" // Icon to show in the Mods list inside Garry's Mod
+ 	"hide"		"0" // Do not hide this gamemode from the Mods list inside Garry's Mod
+ 
+	"mappattern" // This sets all maps with gt_ before the name to default the map gamemode to "GM_test"
+	{
+		"1"	"^gt_"
+	}
+  }
+ 
